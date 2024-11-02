@@ -85,17 +85,15 @@ Following these steps will help confirm that the executable has not been tampere
 
 Should you encounter any issues with running the executable or if security warnings appear, ensure that the digital signature has been properly verified. If problems persist, please refer to the support contact information below.
 
-## License
+# LICENSE
+## ***This project is proprietary and all rights are reserved by the author.***
+## ***Unauthorized copying, distribution, or modification of this project is strictly prohibited.***
+## ***Unless You have written permission from the Developer or the FNBUBBLES420 ORG.***
 
-This software is released under the MIT License, which allows free use, modification, and distribution. See the [LICENSE.md](LICENSE.md) file for full details.
-
-## Contributions
-
-Contributions to this project are welcome! Please fork the repository and submit pull requests for any enhancements you propose.
 
 ## Contact
 
-For support or additional information, visit [FNBUBBLES420.org](https://fnbubbles420.org).
+For support or additional information, visit [bubblesthedev@fnbubbles420.org](bubblesthedev@fnbubbles420.org).
 
 Thank you for using the FNBUBBLES420 ORG Clock. We hope you find it both useful and enjoyable!
 
