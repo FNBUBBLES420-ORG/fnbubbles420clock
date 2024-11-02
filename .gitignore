@@ -44,3 +44,5 @@ Thumbs.db
 # Markdown backup files
 *.md~
 
+# Image files
+*.png
