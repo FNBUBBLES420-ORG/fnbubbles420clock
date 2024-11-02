@@ -33,6 +33,13 @@ git clone https://github.com/fnbubbles420-org/fnbubbles420clock.git
 cd fnbubbles420clock
 ```
 
+### Before running the application, you will need to install the required Python libraries. After cloning the repository, navigate to the project directory and run:
+
+```
+pip install -r requirements.txt
+```
+
+
 3. Run the application:
 
 ```
