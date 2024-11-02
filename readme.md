@@ -49,7 +49,7 @@ Welcome to the official distribution page for the FNBUBBLES420 ORG Clock, a desk
 
 ## Installation
 
-Download the executable from the official [Releases page](https://github.com/yourusername/fnbubbles420clock/releases). Save the executable to your preferred location on your computer.
+Download the executable from the official [Releases page](https://github.com/FNBUBBLES420-ORG/fnbubbles420clock/releases/tag/fnbubbles420clock-exe). Save the executable to your preferred location on your computer.
 
 ## Running the Application
 
