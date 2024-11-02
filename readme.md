@@ -93,7 +93,7 @@ Should you encounter any issues with running the executable or if security warni
 
 ## Contact
 
-For support or additional information, visit [bubblesthedev@fnbubbles420.org](bubblesthedev@fnbubbles420.org).
+For support or additional information, [Join the Discord](https://discord.fnbubbles420.org/invite).
 
 Thank you for using the FNBUBBLES420 ORG Clock. We hope you find it both useful and enjoyable!
 
