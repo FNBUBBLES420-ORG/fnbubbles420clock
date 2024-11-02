@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Before you begin, ensure you have the following software installed:
-- Python 3.11.6 (Download from [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
+- Python 3.11.6 (Download from [Python 3.11.6](https://github.com/fnbubbles420-org/Py3.11.6installer)
 - Pygame Library (`pip install pygame`)
 
 ### Installation
