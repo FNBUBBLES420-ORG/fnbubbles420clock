@@ -48,6 +48,9 @@ python main.py
 
 ---
 ---
+## Screenshot
+- ![clock](https://github.com/FNBUBBLES420-ORG/fnbubbles420clock/blob/main/clock.png)
+---
 ---
 
 # FNBUBBLES420 ORG - Official Clock Executable
