@@ -112,6 +112,7 @@ Thank you for using the FNBUBBLES420 ORG Clock. We hope you find it both useful 
 
 # Acknowledgements
 - [jpb1991](https://github.com/jpb1991) providing the example code then i enhanced it
+- this is his code below:
 ```python
 import pygame
 import sys
