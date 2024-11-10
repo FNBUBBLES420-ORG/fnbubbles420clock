@@ -112,3 +112,56 @@ Thank you for using the FNBUBBLES420 ORG Clock. We hope you find it both useful 
 
 # Acknowledgements
 - [jpb1991](https://github.com/jpb1991) providing the example code then i enhanced it
+```python
+import pygame
+import sys
+from datetime import datetime
+
+# Initialize Pygame
+pygame.init()
+
+# Set up display
+width, height = 500, 250
+screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
+pygame.display.set_caption("Local Time Clock")
+
+# Define colors
+background_color = (240, 240, 240)  # Light gray background
+text_color = (0, 0, 0)  # Black text
+shadow_color = (50, 50, 50)  # Gray shadow for text
+
+# Load a system font
+font = pygame.font.SysFont('segoeui', 72)  # You can change 'segoeui' to 'arial' if needed
+
+# Clock for refreshing the screen
+clock = pygame.time.Clock()
+
+def draw_text_with_shadow(surface, text, font, text_color, shadow_color, position):
+    text_surface = font.render(text, True, text_color)
+    shadow_surface = font.render(text, True, shadow_color)
+    text_rect = text_surface.get_rect(center=position)
+    shadow_rect = shadow_surface.get_rect(center=(position[0] + 2, position[1] + 2))
+    surface.blit(shadow_surface, shadow_rect)
+    surface.blit(text_surface, text_rect)
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Get the current local time and date
+    current_time = datetime.now().strftime("%H:%M:%S")
+    current_date = datetime.now().strftime("%A, %d %B %Y")
+
+    # Draw background, time, and date with shadows
+    screen.fill(background_color)
+    draw_text_with_shadow(screen, current_time, font, text_color, shadow_color, (width // 2, height // 2 - 30))
+    draw_text_with_shadow(screen, current_date, font, text_color, shadow_color, (width // 2, height // 2 + 40))
+
+    # Update the display
+    pygame.display.flip()
+
+    # Cap the frame rate to limit updates to once per second
+    clock.tick(1)
+```
