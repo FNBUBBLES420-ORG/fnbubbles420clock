@@ -107,40 +107,8 @@ For support or additional information, [Join the Discord](https://discord.fnbubb
 
 Thank you for using the FNBUBBLES420 ORG Clock. We hope you find it both useful and enjoyable!
 
+---
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Acknowledgements
+- [jpb1991](https://github.com/jpb1991) providing the example code then i enhanced it
